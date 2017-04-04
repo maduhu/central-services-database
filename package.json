@@ -1,6 +1,6 @@
 {
   "name": "@leveloneproject/central-services-database",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Shared database code for central services",
   "main": "src/index.js",
   "license": "SEE LICENSE IN LICENSE",
