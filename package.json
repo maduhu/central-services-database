@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "bluebird": "3.5.0",
-    "commander": "2.9.0",
     "knex": "0.12.9",
     "lodash": "4.17.4"
   },
