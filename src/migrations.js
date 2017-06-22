@@ -3,5 +3,6 @@
 const Knex = require('knex')
 
 exports.migrate = function (config) {
-  return Knex(config).migrate.latest()
+  const knex = Knex(config)
+  return knex.migrate.latest().then(() => knex.destroy())
 }
